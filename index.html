@@ -9,6 +9,45 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div class="wrap">
+      <div class="title">Calculator Web</div>
+      <div class="calculator">
+        <div class="display">
+          <div class="small" id="history">&nbsp;</div>
+          <div class="main" id="screen">12345</div>
+        </div>
+
+        <div class="keys" id="keys">
+          <!-- Action Button -->
+          <button class="danger span-2" data-action="backspace">Clear</button>
+          <button class="op" data-action="backspace">⌫</button>
+          <button class="op" data-action="opearator" data-value="/">÷</button>
+
+          <!-- Digit 7 8 9 *-->
+          <button data-action="digit" data-value="7">7</button>
+          <button data-action="digit" data-value="8">8</button>
+          <button data-action="digit" data-value="9">9</button>
+          <button class="op" data-action="opearator" data-value="*">x</button>
+
+          <!-- Digit 4 5 6 --->
+          <button data-action="digit" data-value="4">4</button>
+          <button data-action="digit" data-value="5">5</button>
+          <button data-action="digit" data-value="6">6</button>
+          <button class="op" data-action="opearator" data-value="-">-</button>
+
+          <!-- Digit 1 2 3 +-->
+          <button data-action="digit" data-value="1">1</button>
+          <button data-action="digit" data-value="2">2</button>
+          <button data-action="digit" data-value="3">3</button>
+          <button class="op" data-action="opearator" data-value="+">+</button>
+
+          <!-- 0 . = -->
+          <button class="span-2" data-action="digit" data-value="0">0</button>
+          <button data-action="decimal" data-value=".">.</button>
+          <button class="eq" data-action="equals">=</button>
+        </div>
+      </div>
+    </div>
     <!-- JS -->
     <script src="main.js"></script>
   </body>
