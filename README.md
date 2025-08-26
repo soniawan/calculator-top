@@ -12,6 +12,4 @@ Basic math operator like add, subtract, multiple, and divide.
 2. CSS
 3. Javascript (DOM)
 
-### Live Project
 
-[Live Project](url)
